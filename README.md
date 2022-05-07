@@ -1,3 +1,4 @@
-The is a version of wordle that is more suitable for use in a cli environment.
+The is a cli version of [wordle](https://www.nytimes.com/games/wordle/index.html) written in go.
 I did it just to brush up my knowledge of golang.
-Hope you enjoy it.
+
+Hope you enjoy it!
