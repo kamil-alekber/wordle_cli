@@ -13,8 +13,9 @@ Things I need to take care of:
 7. If all letters are correctly marked then print "You won!"
 8. If all letters are not correctly marked then print "You lost!"
 9. Get extensive list of words:
-   - load from the web [0%]
+   - load from the web [done]
    - load from the local file [0%]
-10. Add hints to the game, some words are too difficult, almost random [0%]
-11. Add instructions on build and run [0%]
-12. Refactor game module and hide unnecessary code [0%]
+10. Add hints to the game, some words are too difficult, almost random or make word list easier [0%]
+11. Add instructions on build and run to README.md [0%]
+12. Refactor game module and hide unnecessary code [done]
+13. Add reasonable defaults inside argument parser [0%]
