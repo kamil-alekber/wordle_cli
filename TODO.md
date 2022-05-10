@@ -1,7 +1,7 @@
 Things I need to take care of:
 
-0. Cover with unit tests [0%]
-1. Parse the input from cli [e.g. game size, difficulty] [50%].
+0. Cover with unit tests [20%]
+1. Parse the input from cli [e.g. game size, difficulty] [80%].
 2. Read the cli input stream. [done]
 3. Generate a random word [done].
 4. Find the position of the letter in the word:
@@ -15,3 +15,6 @@ Things I need to take care of:
 9. Get extensive list of words:
    - load from the web [0%]
    - load from the local file [0%]
+10. Add hints to the game, some words are too difficult, almost random [0%]
+11. Add instructions on build and run [0%]
+12. Refactor game module and hide unnecessary code [0%]
