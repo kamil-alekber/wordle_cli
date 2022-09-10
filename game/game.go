@@ -18,6 +18,11 @@ type wordleCli struct {
 }
 
 var (
+	/*
+		TODO:
+			- importing cvs of user defined words
+			- importing with sql
+	*/
 	words = []string{"hello", "big", "me"}
 )
 
@@ -58,6 +63,7 @@ func (wc *wordleCli) Start() {
 				os.Exit(0)
 			}
 
+			// attemps should be restored to initial value captured from cli
 			wc.attempts = 5
 			fmt.Println("Starting new round. Ready, set and go!")
 			return

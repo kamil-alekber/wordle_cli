@@ -31,9 +31,7 @@ func CliArgumentParser() map[string]string {
 		}
 
 		if !isAllowedArgument(arg) {
-			fmt.Println("Argument " + arg + " is not allowed")
-			// print allowed arguments
-			fmt.Println("Allowed arguments:", appArgs)
+			fmt.Printf("Argument %v is not allowed.\nAllowed arguments: %v\n", arg, appArgs)
 			os.Exit(1)
 		}
 

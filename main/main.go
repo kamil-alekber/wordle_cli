@@ -6,8 +6,7 @@ import (
 )
 
 func main() {
-	game := game.CreateGame()
-	game.Start()
+	game.CreateGame().Start()
 
 	os.Exit(0)
 }
